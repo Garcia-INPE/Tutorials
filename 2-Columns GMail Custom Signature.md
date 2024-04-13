@@ -10,7 +10,12 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
 * The tricky is to build the layout in Google Sheets ... but only the table structure is leveraged.
 
 `2. Go to Google Sheets and create a similar structure`
-* Contents will not be leveraged...only the layout
+* Contents in Sheets will not be leveraged...only the layout.
+* Column width and line height matter, the layout will be pasted in the editor as it is here.
+* The text in Sheets must be not ok when pasted, keep it short there and change in the editor.
+* Make columns large enough to fit the desired image or text.
+* Copy the two columns and paste in the signature editor.
+* Background and line colors are also pasted, format them here.
 ![Example of a Google Sheets layout for GMail 2-column signature](/assets/img/SignatureLayoutInGoogleSheets.png)
 
 
