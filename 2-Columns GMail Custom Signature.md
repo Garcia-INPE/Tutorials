@@ -16,7 +16,7 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
 * Make columns large enough to fit the desired image or text.
 * Copy the two columns and paste in the signature editor.
 * Background and line colors are also pasted, format them here.
-![Example of a Google Sheets layout for GMail 2-column signature](/assets/img/SignatureLayoutInGoogleSheets.png)
+![Example of a Google Sheets layout for GMail 2-column signature](/assets/img/SignatureLayoutInGoogleSheets_v2.png)
 
 
 
