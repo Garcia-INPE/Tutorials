@@ -1,5 +1,5 @@
 # Customizing your signature for GMail App (mobile/desktop) (a 2-column example)
-by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe/pt-br) / [MCTI](https://www.gov.br/mcti/pt-br), adapted from [https://www.youtube.com/@ShawhinTalebi](https://www.youtube.com/watch?v=NjMD1bGBNqw&list=PLz-ep5RbHosXORBcWr6dy3-Wdq9RT2n2f)
+by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe/pt-br) / [MCTI](https://www.gov.br/mcti/pt-br), adapted from [here](https://www.youtube.com/watch?v=NjMD1bGBNqw&list=PLz-ep5RbHosXORBcWr6dy3-Wdq9RT2n2f)
 
 | <span style="font-size:2em;">Observations</span> | <span style="font-size:2em;">Example</span>  |
 |-------------|-------------|
@@ -27,9 +27,9 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
 `3. Explore the Signature Editor - Try to build something similar to this.`<br><br>
 ![Example of a Signature](/assets/img/SignatureReady.png)
 * You can include links for social media.
-* Logos can bem uploaded or captured from provirders like [this one](https://exclaimer.com/email-signature-handbook/social-media-icons-in-email-signatures/).
+* Logos can be uploaded or captured from images providers like [this one](https://exclaimer.com/email-signature-handbook/social-media-icons-in-email-signatures/).
 * One can use HTML editor like [this](https://html-online.com/) in order to build the signature and then paste the design (not the HTML) into the GMail Signature Editor. [Source](https://www.wisestamp.com/guides/gmail-html-signature/#:~:text=Can%20you%20use%20HTML%20in,the%20HTML%20into%20Gmail's%20settings.).
-* OBS
+* OBS: You can leverage the HTML code and paste it into your mail softwares
 
 Troubleshooting
 * [What if I get 'Email signature is too long error?](https://support.google.com/mail/thread/213646412/email-signature-with-any-images-is-too-long?hl=en)
