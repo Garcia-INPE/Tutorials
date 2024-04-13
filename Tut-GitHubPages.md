@@ -1,24 +1,19 @@
 # Creating GitHub Pages
 by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe/pt-br) / [MCTI](https://www.gov.br/mcti/pt-br), compiled from [GitHub Docs: Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
+###Observations (concepts one must be keep in mind)
 
-
-
-CREATING GITHUB PAGES 
-Personal portfolio
-
-Observations (concepts one must keep in mind)
-Sites can contain multiple files: the main index.md, images, configurations, html, etc
-These files need a location to be stored in, which in github infra is composed by: 
-a repo (create a new or choose an existing)
-a branch in the repo (create a new or choose an existing, the “main”, ex.)
-a directory inside the branch (the root “/” or a new one)
-Two modes to build the homepage site
-Automatically from the publishing source or 
-Using GitHub Actions workflow 
-Publishing source is where the files responsible to build your site are (the location).
-The steps below use the what is highlighted in bold: <new repo> : <main branch> : <“/”> (root dir)
-We will configure GitHub to automatically build the landing page using the files we put inside the dir above
+* Sites can contain multiple files: the main index.md, images, configurations, html, etc
+* These files need a location to be stored in, which in github infra is composed by:
+  * a repo (`create a new` or choose an existing)
+  * a branch in the repo (create a new or choose an existing, `the “main”`, ex.)
+  * a directory inside the branch (`the root “/”` or a new one)
+* There are two modes to build the homepage site
+  * Automatically from the publishing source or
+  * Using GitHub Actions workflow
+* `Publishing source` is where the files responsible to build your site are (the location).
+* The steps below use the what is highlighted: `<new repo>` : `<main branch>` : `<“/”> (root dir)`
+* We will configure GitHub to automatically build the landing page using the files we put inside the dir above
 
 1) Creating one repo specific for files of the site
 Owner: <user> or the <organization>
