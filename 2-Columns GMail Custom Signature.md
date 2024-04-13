@@ -3,14 +3,10 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
 
 | <span style="font-size:2em;">Observations</span> | <span style="font-size:2em;">Example</span>  |
 |-------------|-------------|
-| * Signature is the text that presents yourself and it is usually placed at the end of messages.<br>* Presents yourself as a professional/person. Fast contact information.<br>* Prevents from setting at every computer/mail computer program.<br>* Example of a 2-column signature (tricky!)         | ![alt text](/assets/img/)         |
+|<ul><li>Is the text that presents yourself as a professional/person.</li><li>A fast way to show contact information.</li><li>Usually placed at the end of messages.</li><li>Prevents from setting at every computer/mail computer program.</li><li>Making a 2-column signature is tricky!</li> | ![alt text](/assets/img/SignatureExample.png)         |
 
-
-GMail / Setting / See All Settings / No signatures (or signatures) / Create New
-Name it and Create
-
-The signature editor opens, but with the 1-column default layout….but we want two columns
-The tricky is to build a layout of a 2-column signature is to build de 2-column structure at Google Sheets
-Only the table structure is leveraged
+1. GMail / Setting / See All Settings / No signatures (or signatures) / Create New / Name it and Create
+* The signature editor opens, but with the 1-column default layout….but we want two columns.
+* The tricky is to build the layout in Google Sheets ... but only the table structure is leveraged.
 
 
