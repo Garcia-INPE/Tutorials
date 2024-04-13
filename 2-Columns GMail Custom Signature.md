@@ -20,15 +20,16 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
 * Insert the image OVER the cells in Sheets (to keep its size).
 * Adjust the margins and alignment of the cell.
 * Background and border line colors are also pasted, format them in Sheets.
-* Copy the two columns and paste them in the Signature Editor.
+* Copy the two columns and paste them in the Signature Editor.<br>
 ![Example of a Google Sheets layout for GMail 2-column signature](/assets/img/SignatureLayoutInGoogleSheets_v3.png)
 
 
-* Explore the Signature Editor
+`3. Explore the Signature Editor - Try to build something similar to this.`<br><br>
+![Example of a Signature](/assets/img/SignatureReady.png)
 * You can include links for social media.
-* Logos can bem uploaded or captured from provires https://exclaimer.com/email-signature-handbook/social-media-icons-in-email-signatures/
-
-
+* Logos can bem uploaded or captured from provirders like [this one](https://exclaimer.com/email-signature-handbook/social-media-icons-in-email-signatures/).
+* One can use HTML editor like [this](https://html-online.com/) in order to build the signature and then paste the design (not the HTML) into the GMail Signature Editor. [Source](https://www.wisestamp.com/guides/gmail-html-signature/#:~:text=Can%20you%20use%20HTML%20in,the%20HTML%20into%20Gmail's%20settings.).
+* OBS
 
 Troubleshooting
 * [What if I get 'Email signature is too long error?](https://support.google.com/mail/thread/213646412/email-signature-with-any-images-is-too-long?hl=en)
