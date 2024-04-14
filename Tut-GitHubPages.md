@@ -37,6 +37,7 @@ else:
 * "Branch" / `main / (root)` then `Save`.
 
 `4. Explore` [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+* In order to change Jekyll theme files you must create a copy of it in your site, inside the same directory structure, and change it.
 
 `5. Explore` [Google Analytics](https://analytics.google.com/)
 * Create an account
