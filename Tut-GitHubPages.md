@@ -38,4 +38,10 @@ else:
 
 `4. Explore` [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
 
+`5. Explore` [Google Analytics](https://analytics.google.com/)
+* Create an account
+* Create a property / Put the URL and get the MEASUREMENT_ID or TRACKING_ID
+* Put the entry `google_analytics: [MEASUREMENT_ID] in _config.yml
+* Create the file _includes/head-custom-google-analytics.html with the content shown by the instructions that will appear when creating the property.
+
 
