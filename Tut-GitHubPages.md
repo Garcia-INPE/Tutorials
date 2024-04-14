@@ -36,5 +36,6 @@ else:
 * "Source" / `Deploy from a branch`.
 * "Branch" / `main / (root)` then `Save`.
 
-`4. Explore [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)`
+`4. Explore` [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+
 
