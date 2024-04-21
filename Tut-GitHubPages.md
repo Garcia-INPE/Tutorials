@@ -13,36 +13,44 @@ by [JRM Garcia](https://garcia-inpe.github.io/) / [INPE](https://www.gov.br/inpe
   * Using GitHub Actions workflow
 * `Publishing source` is where the files responsible to build your site are (the location).
 * The steps below use the what is highlighted: `<new repo>` : `<main branch>` : `<“/”> (root dir)`
-* We will configure GitHub to automatically build the landing page using the files we put inside the dir above
+* We will configure GitHub to automatically build the landing page using the files we put inside the dir above located in a new repo
 
-`1. Creating one specific repo for saving the files that will create the site`
-* Owner: `<user>` or `<organization>`
-* Repo name: `<user>`.github.io or `<organization>`.github.io  
+`1. Create a specific repo to store landing page and auxiliary files`
+
+* Go to https://github.com/<user>
+* Create a new repo
+  * Owner/repo_name: `<user>`/`<user>`.github.io
+  * Must be public (for free accounts)
+  * Include README.md file
+  * License: MIT (optional)  
 ```
-if <repo_name> == user_or_organization_name:
-   URL = user.github.io
+if <repo_name> == user:
+   URL will be user.github.io
 else:
-   URL = user.github.io/<repo_name>
+   URL will be user.github.io/<repo_name>
 ```
-* Public (must be public for free accounts)
-* License: MIT (optional)
-* Hit Create Repo button
-
-`2. Create a landing page in Markdown`
-* Name it `index.md` and save it inside the root dir “/” of the main branch.
-
-`3. Configuring the landing page to be automatically called when entering the URL`
-* Go to the repo / Settings / Pages
+ 
+`2. Edit README.md Markdown file just created and format it to be the landing page`
+* Use ordinary Markdown command or explore` [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+* Commit your work (practically means save with comments)
+  
+`3. Now, configure GitHub to make README.md to be shown as your landing page`
+* Go to the repo just created / Settings / Pages
 * "Source" / `Deploy from a branch`.
 * "Branch" / `main / (root)` then `Save`.
 
-`4. Explore` [Jekyll themes](https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
-* In order to change Jekyll theme files you must create a copy of it in your site, inside the same directory structure, and change it.
+`4. Checking`
+* Every time some thing concerning the landing pages changes, GitHub has to build (render in HTML) he landing page again
+* Still in the repo just create click in Actions in the Options bar and check if build is running
+* When finishes, goto <user>/github.io and check the result
+* And Voilà! 
 
-`5. Explore` [Google Analytics](https://analytics.google.com/)
-* Create an account
-* Create a property / Put the URL and get the MEASUREMENT_ID or TRACKING_ID
-* Put the entry `google_analytics: [MEASUREMENT_ID] in _config.yml
-* Create the file _includes/head-custom-google-analytics.html with the content shown by the instructions that will appear when creating the property.
+### To go further
+
+`* Explore` [Google Analytics](https://analytics.google.com/)
+  * Create an account
+  * Create a property / Put the URL and get the MEASUREMENT_ID or TRACKING_ID
+  * Put the entry `google_analytics: [MEASUREMENT_ID] in _config.yml
+  * Create the file _includes/head-custom-google-analytics.html with the content shown by the instructions that will appear when creating the property.
 
 
